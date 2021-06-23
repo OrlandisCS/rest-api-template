@@ -15,8 +15,9 @@
 ```sh
 npm install
 ```
-
+  <a href="https://documenter.getpostman.com/view/13585657/TzecBjvk" target="_blank">
 ## Endpoints Documentation
+  </a>
 
 ```sh
 https://documenter.getpostman.com/view/13585657/TzecBjvk
