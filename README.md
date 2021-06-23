@@ -16,6 +16,12 @@
 npm install
 ```
 
+## Endpoints Documentation
+
+```sh
+https://documenter.getpostman.com/view/13585657/TzecBjvk
+```
+
 ## Run tests
 
 ```sh
