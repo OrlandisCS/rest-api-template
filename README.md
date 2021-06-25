@@ -15,6 +15,14 @@
 ```sh
 npm install
 ```
+## Endpoints Documentation
+  <a href="https://documenter.getpostman.com/view/13585657/TzecBjvk" target="_blank">
+Click Here!!
+</a>
+
+```sh
+https://documenter.getpostman.com/view/13585657/TzecBjvk
+```
 
 ## Run tests
 
