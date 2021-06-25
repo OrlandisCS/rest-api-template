@@ -1,9 +1,12 @@
 const { Router } = require("express");
 const { check } = require("express-validator");
 //Importación de los middlewares
-const { validarCampos } = require("../middlewares/validar-datos");
-const { validarJWT } = require("../middlewares/validar-jwt");
-const { adminRole, tieneRole } = require("../middlewares/roles");
+const {
+  adminRole,
+  tieneRole,
+  validarCampos,
+  validarJWT
+} = require("../middlewares");
 //Importaciones de diferentes funciones de utilidad
 const {
   isValidateRol,
@@ -48,7 +51,6 @@ router.put(
     check("rol", "Este rol no es válido").custom(isValidateRol),
     validarCampos,
   ],
-
   usuariosPut
 );
 router.delete(

@@ -6,7 +6,6 @@ const adminRole = (req = request, res = response, next) => {
             msg: 'Se requiere validar el Token'
         })
     }
-
     const { rol, estado, nombre } = req.usuario
     if (rol !== 'ADMIN_ROLE') {
         return res.status(401).json({
